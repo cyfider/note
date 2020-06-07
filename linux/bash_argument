@@ -1,0 +1,13 @@
+
+bash argument: 
+$0 $1 $2	: single arg
+$*		: all arg, except caller script
+$#		: number of arg, except caller script
+
+---check argument count and show usage
+if [ $# -lt 1 ] ; then
+    echo "usage: $0 <username>" 
+fi
+
+default param
+name=${1-'default name'}

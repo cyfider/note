@@ -1,0 +1,6 @@
+redirect:
+-igore errors
+grep -r power /sys/ 2>/dev/null
+
+-multiple redirect
+ping gogole.com 1>output.txt 2>error.txt

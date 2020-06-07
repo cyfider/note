@@ -1,0 +1,13 @@
+find
+
+copy all .sh file from ~/Downloads to ~/sav
+---
+test -d ~/sav || mkdir ~/sav
+find ~/Downloads -name "*.sh" -exec cp {} ~/sav \;
+---
+
+
+select regular expression type: -regextype
+---
+find . -type d -regextype grep
+---

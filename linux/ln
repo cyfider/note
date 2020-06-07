@@ -1,0 +1,16 @@
+link
+hard:
+ln filename linkname
+
+soft:
+ln -s filename linkname
+
+hard link vs copy:
+hard: file and link point to the same inode (shallow copy)
+copy: deep copy, copy data, seperate inode
+
+hard link vs soft link:
+soft: delete file, link not still valid
+hard: delete file, file still valid
+
+

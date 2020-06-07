@@ -1,0 +1,11 @@
+read: read a line from stdandard input
+- read name
+read -p "what your name " name
+echo $name
+
+- press a key to exit, (not wait to Enter key)
+read -sn1 -p "press a key to exit'
+
+-s: silent
+-n: number of char
+-p: promt

@@ -1,0 +1,8 @@
+
+'' vs "":
+'Hello $1' -> Hello $1
+"Hello $1" -> Hello abc
+
+
+\ in "":
+"Hello \$1" -> Hello $1

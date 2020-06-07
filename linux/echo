@@ -1,0 +1,4 @@
+echo:
+-e: enable interpretation of backslash escapes
+echo "\tHello"		-> \tHello
+echo -e "\tHello"	-> 	Hello 
