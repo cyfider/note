@@ -9,21 +9,63 @@ md: < 1200 px wide
 lg: > 1200 px wide
 
 
+
 divide window into 12 unit
 xs-6: cover 6 unit
 xs-3: cover 3 unit
 
 
+nav, class=navbar, [justify-content-center, justify-content-end, flex-column]
+	navbar-brand
+	navbar-nav
+		nav-item
+
+
+
+nav
+nav
+ul, class=nav, [justify-content-center, justify-content-end, flex-column,]
+	li, class=nav-item
+		a, class=nav-link
+
+
+
+
 jumbotron: entire viewport, showcase key marketing messages on your site
 
 
-navigation:
-navbar
-navbar-brand
-navbar-toggler
-navbar-collapse
 
 
-carousel: slide show
-casual-item
+collapse: show/hide content
+collapse combine with navbar-togger.data-target
+
+
+
+section vs div:
+section: group related content
+div: group related represent
+
+
+
+card: include options for headers, footers and wide variety content
+card
+card-body
+card-title
+card-text
+
+
+
+carousel
+carousel-inner
+carousel-item
 carousel-control-prev
+carousel-control-next
+
+
+
+
+
+
+
+
+
